@@ -1,3 +1,6 @@
+var titulo = document.querySelector(".titulo");
+titulo.textContent = "Aparecida Nutricionista";
+
 var pacientes = document.querySelectorAll(".paciente");
 
 for (var i = 0; i < pacientes.length; i++) {
@@ -34,3 +37,5 @@ for (var i = 0; i < pacientes.length; i++) {
         tdImc.textContent = imc.toFixed(2);
     }
 }
+
+
