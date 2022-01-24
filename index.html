@@ -8,7 +8,6 @@
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 	</head>
 	<body>
-
 		<header>
 			<div class="container">
 				<h2 class="titulo">Aparecida Nutrição</h2>
@@ -17,6 +16,8 @@
 		<main>
 			<section class="container">
 				<h2>Meus pacientes</h2>
+				<label for="filtrar-tabela">Busca:</label>
+				<input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do paciente">
 				<table>
 					<thead>
 						<tr>
@@ -71,7 +72,6 @@
 
 			</section>
 		</main>
-
 		<section class="container">
 		    <h2 id="titulo-form">Adicionar novo paciente</h2>
 		    <form id="form-adiciona">
@@ -99,5 +99,6 @@
 		<script src="js/calcula-imc.js" ></script>
 		<script src="js/form.js" ></script>
 		<script src="js/remover-paciente.js"></script>
+		<script src="js/filtra.js"></script>
 	</body>
 </html>
